@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: sockshop-team
+  description: Team that manages the Sockshop Applications
+spec:
+  type: team
+  children: []

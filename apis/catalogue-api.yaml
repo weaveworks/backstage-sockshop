@@ -1,0 +1,15 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: catalogue-api
+  description: The Catalogue API
+  tags:
+    - rest
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sockshop-team
+  system: catalogue
+  definition:
+    $text: https://raw.githubusercontent.com/microservices-demo/catalogue/master/api-spec/catalogue.json

@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sockshop-frontend
+  description: Front-end application written in Node.js that puts together all of the microservices under microservices-demo
+  tags:
+    - node
+    - frontend
+  annotations:
+    github.com/project-slug: microservices-demo/front-end
+    backstage.io/kubernetes-id: sockshop-frontend
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: sockshop
+  consumesApis:
+    - catalogue-api
+    - orders-api

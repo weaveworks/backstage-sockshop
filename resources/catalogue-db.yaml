@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: catalogue-db
+  description: Stores catalogue data
+  tags:
+    - mysql
+spec:
+  type: database
+  owner: sockshop-team
+  lifecycle: production
+  system: catalogue

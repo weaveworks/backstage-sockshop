@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: users
+  description: Users management system
+spec:
+  owner: sockshop-team
+  domain: users
+  partOf: system:sockshop

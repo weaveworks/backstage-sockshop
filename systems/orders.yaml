@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: orders
+  description: Orders System
+spec:
+  owner: sockshop-team
+  domain: orders
+  partOf: system:sockshop

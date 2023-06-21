@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sockshop-all
+  description: A collection of all Sockshop entities.
+spec:
+  targets:
+    - ./all-apis.yaml
+    - ./all-components.yaml
+    - ./all-systems.yaml
+    - ./all-resources.yaml
+    - ./org.yaml

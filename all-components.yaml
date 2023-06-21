@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sockshop-components
+  description: A collection of all Sockshop components.
+spec:
+  targets:
+    - ./components/carts-service.yaml
+    - ./components/catalogue-service.yaml
+    - ./components/orders-service.yaml
+    - ./components/payments-service.yaml
+    - ./components/queue-master.yaml
+    - ./components/shipping-service.yaml
+    - ./components/sockshop-frontend.yaml
+    - ./components/website.yaml

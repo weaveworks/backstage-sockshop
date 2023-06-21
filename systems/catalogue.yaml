@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: catalogue
+  description: Catalogue System
+  links:
+    - url: https://example.com/catalog
+      title: Catalog View
+      icon: web
+spec:
+  owner: sockshop-team
+  domain: catalogue
+  partOf: system:sockshop

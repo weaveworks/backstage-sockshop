@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sockshop-systems
+  description: A collection of all Sockshop systems.
+spec:
+  targets:
+    - ./systems/catalogue.yaml
+    - ./systems/orders.yaml
+    - ./systems/payments.yaml
+    - ./systems/shipping.yaml
+    - ./systems/sockshop.yaml
+    - ./systems/users.yaml

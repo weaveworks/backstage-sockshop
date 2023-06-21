@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shipping-service
+  description: A microservices-demo service that provides shipping capabilities
+  tags:
+    - java
+  annotations:
+    github.com/project-slug: microservices-demo/shipping
+    backstage.io/kubernetes-id: shipping-service
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: shipping

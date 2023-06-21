@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: payments
+  description: Payments System
+spec:
+  owner: sockshop-team
+  domain: payments
+  partOf: system:sockshop

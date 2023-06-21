@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: orders-service
+  description: A microservices-demo service that provides ordering capabilities
+  tags:
+    - java
+  annotations:
+    github.com/project-slug: microservices-demo/orders
+    backstage.io/kubernetes-id: orders-service
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: orders
+  dependsOn:
+    - resource:orders-db
+  providesApis:
+    - orders-api

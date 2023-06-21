@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: carts-service
+  description: A microservices-demo service that provides shopping carts for users
+  tags:
+    - java
+  annotations:
+    github.com/project-slug: microservices-demo/carts
+    backstage.io/kubernetes-id: carts-service
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: carts

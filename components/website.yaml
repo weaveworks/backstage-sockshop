@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sockshop-web
+  description: A generic microservices application, built @weaveworks
+  annotations:
+    github.com/project-slug: microservices-demo/microservices-demo.github.io
+  links:
+    - url: https://microservices-demo.github.io/
+      title: Website
+      icon: techdocs
+spec:
+  type: website
+  lifecycle: production
+  owner: sockshop-team
+  system: sockshop

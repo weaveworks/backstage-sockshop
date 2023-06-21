@@ -1,0 +1,8 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: sockshop
+  description: A Microservices Demo Application
+spec:
+  owner: sockshop-team

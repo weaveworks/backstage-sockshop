@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: orders-db
+  description: Stores Orders
+  tags:
+    - mongodb
+spec:
+  type: database
+  owner: sockshop-team
+  lifecycle: production
+  system: orders

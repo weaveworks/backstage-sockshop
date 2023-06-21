@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: queue-master
+  description: A microservices-demo service that provides reading from the shipping queue
+  tags:
+    - java
+  annotations:
+    github.com/project-slug: microservices-demo/queue-master
+    backstage.io/kubernetes-id: queue-master
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: shipping
+  subcomponentOf: shipping-service

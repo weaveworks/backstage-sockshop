@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalogue-service
+  description: A microservices-demo service that provides catalogue/product information
+  tags:
+    - go
+  annotations:
+    github.com/project-slug: microservices-demo/catalogue
+    backstage.io/kubernetes-id: catalogue-service
+spec:
+  type: service
+  lifecycle: production
+  owner: sockshop-team
+  system: catalogue
+  dependsOn:
+    - resource:catalogue-db
+  providesApis:
+    - catalogue-api

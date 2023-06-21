@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: sockshop-apis
+  description: A collection of all Sockshop APIs.
+spec:
+  targets:
+    - ./apis/catalogue-api.yaml
+    - ./apis/orders-api.yaml

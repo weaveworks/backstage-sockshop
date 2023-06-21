@@ -1,0 +1,15 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: orders-api
+  description: The Orders API
+  tags:
+    - rest
+spec:
+  type: openapi
+  lifecycle: production
+  owner: sockshop-team
+  system: orders
+  definition:
+    $text: https://raw.githubusercontent.com/microservices-demo/orders/master/api-spec/orders.json
