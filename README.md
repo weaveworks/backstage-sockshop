@@ -23,5 +23,5 @@ catalog:
     - allow: [Component, System, API, Resource, Location, User, Group]
   locations:
     - type: url
-      target: https://github.com/weaveworks-gitops-poc/backstage-sockshop/blob/main/all.yaml
+      target: https://github.com/weaveworks/backstage-sockshop/blob/main/all.yaml
 ```
