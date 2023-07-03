@@ -4,8 +4,8 @@ metadata:
   name: sockshop
   description: Sockshop reimagined for Backstage
   annotations:
-    github.com/project-slug: bigkevmcd/backstage-showcase
+    github.com/project-slug: weaveworks/backstage-sockshop
 spec:
   type: system
-  owner: bigkevmcd@gmail.com
+  owner: group:sockshop-team
   lifecycle: experimental
