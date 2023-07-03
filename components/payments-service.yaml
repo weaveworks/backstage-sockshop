@@ -9,6 +9,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/payment
     backstage.io/kubernetes-id: payments-service
+  links:
+    - url: https://github.com/microservices-demo/payment
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production

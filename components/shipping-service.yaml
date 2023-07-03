@@ -9,6 +9,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/shipping
     backstage.io/kubernetes-id: shipping-service
+  links:
+    - url: https://github.com/microservices-demo/shipping
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production

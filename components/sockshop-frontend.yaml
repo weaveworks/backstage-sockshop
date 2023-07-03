@@ -10,6 +10,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/front-end
     backstage.io/kubernetes-id: sockshop-frontend
+  links:
+    - url: https://github.com/microservices-demo/front-end
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production
