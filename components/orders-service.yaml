@@ -9,6 +9,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/orders
     backstage.io/kubernetes-id: orders-service
+  links:
+    - url: https://github.com/microservices-demo/orders
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production

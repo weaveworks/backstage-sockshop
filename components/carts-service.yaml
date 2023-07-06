@@ -9,6 +9,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/carts
     backstage.io/kubernetes-id: carts-service
+  links:
+    - url: https://github.com/microservices-demo/carts
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production

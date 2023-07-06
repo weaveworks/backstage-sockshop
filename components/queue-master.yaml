@@ -9,6 +9,10 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/queue-master
     backstage.io/kubernetes-id: queue-master
+  links:
+    - url: https://github.com/microservices-demo/queue-master
+      title: Project
+      icon: github
 spec:
   type: service
   lifecycle: production
