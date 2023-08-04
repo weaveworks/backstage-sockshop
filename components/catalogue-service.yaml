@@ -9,6 +9,7 @@ metadata:
   annotations:
     github.com/project-slug: microservices-demo/catalogue
     backstage.io/kubernetes-id: catalogue-service
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://github.com/microservices-demo/catalogue
       title: Project
